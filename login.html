@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Login - WarehousePro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="login-page">
+
+
+<div class="login-container">
+
+
+    <div class="login-logo">
+
+        <div class="logo-icon">
+            📦
+        </div>
+
+        <h1>
+            Warehouse<span class="blue">Pro</span>
+        </h1>
+
+        <p>
+            Warehouse Fulfillment Management
+        </p>
+
+    </div>
+
+
+    <div class="login-box">
+
+        <h2>Admin Login</h2>
+
+        <p>
+            Login to manage your warehouse.
+        </p>
+
+
+        <form onsubmit="loginUser(event)">
+
+
+            <label>
+                Username
+            </label>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter username"
+                required
+            >
+
+
+            <label>
+                Password
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter password"
+                required
+            >
+
+
+            <button
+                type="submit"
+                class="primary-btn login-submit">
+
+                Login
+
+            </button>
+
+
+            <p
+                id="loginMessage"
+                class="login-message">
+            </p>
+
+        </form>
+
+
+        <a
+            href="warehose.html"
+            class="back-home">
+
+            ← Back to Home
+
+        </a>
+
+    </div>
+
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
